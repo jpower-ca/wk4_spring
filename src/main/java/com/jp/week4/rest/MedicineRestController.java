@@ -32,7 +32,7 @@ public class MedicineRestController {
         return medicineService.findMedicineById(id);
     }
 
-    // 3. POST the new medicine
+    // 3. POST the new medicine to /api/medicines
     @PostMapping
     public void addMedicine(@RequestBody Medicine newMedicine) {
         medicineService.add(newMedicine);

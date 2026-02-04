@@ -32,7 +32,7 @@ public class AdmissionRestController {
         admissionService.add(newAdmission);
     }
 
-    // PUT Update existing admission by id# /api/admissions/id#
+    // PUT Update existing admission by id# /api/admissions/id# 
     @PutMapping("/{id}")
     public void updateAdmission(@PathVariable int id, @RequestBody Admission updatedAdmission) {
         admissionService.update(id, updatedAdmission);

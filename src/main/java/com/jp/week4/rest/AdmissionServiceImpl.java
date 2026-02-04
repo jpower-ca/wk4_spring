@@ -12,7 +12,7 @@ public class AdmissionServiceImpl implements AdmissionInterface {
 
     public AdmissionServiceImpl() {
         
-        admissions.add(new Admission(1, "John Johnson", "Room 12", "Leg fell off"));
+        admissions.add(new Admission(1, "2026-02-02", "Jack Johnson", "Leg fell off"));
     }
 
     @Override
